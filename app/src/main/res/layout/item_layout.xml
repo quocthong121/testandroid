@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="horizontal"
+    android:paddingBottom="20dp">
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/lblTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhiệt độ"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/lblSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tốc độ"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/lblVisibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tầm nhìn"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/lblTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/lblTempResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdasd"
+            android:background="#512DE6"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/lblSpeedResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asd"
+            android:background="#512DE6"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/lblVisibilityResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdasd"
+            android:background="#512DE6"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/lblTimeResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdasd"
+            android:background="#512DE6"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
